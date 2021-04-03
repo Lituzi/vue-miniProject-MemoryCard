@@ -1,21 +1,19 @@
 # memorycard
 
-> A Vue.js project
+> 基于vue2.0的记忆卡片实现。
 
-## Build Setup
+## 实现功能
+- 点击添加卡片，跳转到添加卡片页面
+- 在添加卡片页面写入question和answer，点击添加，跳转回初始页面
+- 初始页面显示记忆卡片，点击卡片可翻转
+- 左右翻页功能，显示页码
+- 清除全部卡片
+- 数据通过localStorage本地存储
 
-``` bash
-# install dependencies
-npm install
+## 说明
+> 建立vue-cli脚手架项目后，将src文件夹内容替换即可。
 
-# serve with hot reload at localhost:8080
-npm run dev
+## ToDo
+- 卡片滑动效果
+- css样式整体规划
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
